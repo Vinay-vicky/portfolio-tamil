@@ -4,6 +4,10 @@
 :root {
     --primary: #12bdff;
     --dark-primary: #1b1f24;
+    --facebook: #324fe1;
+    --linkedin: #0f69ff;
+    --github: #757575;
+    --instagram: #E4405F;
     --nunito: 'Nunito Sans', sans-serif;
     --border-box: border-box;
 }
@@ -37,21 +41,21 @@ header .logo {
     letter-spacing: 3px;
 }
 
-ul {
+header ul {
     display: flex;
     list-style: none;
 }
 
-ul li {
+header ul li {
     margin-right: 20px;
 }
 
-ul li a {
+header ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-ul li a:hover {
+header ul li a:hover {
     color: var(--primary);
 }
 
@@ -69,4 +73,62 @@ header button:hover {
     cursor: pointer;
     background-color: var(--primary);
     color: #fff;
+}
+
+/* section: Hero Homepage */
+
+section.hero-section {
+    background-color: var(--dark-primary);
+    color: #fff;
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px 120px 0 200px;
+}
+
+
+.hero-section__title {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.hero-section__desc {
+    color: azure;
+}
+
+
+/* social icons */
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons li {
+    margin-right: 15px;
+}
+
+ul.social-icons {
+    list-style: none;
+    display: flex;
+}
+
+.social-icons li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons li a > i.fa-facebook:hover {
+    color: var(--facebook);
+}
+
+.social-icons li a > i.fa-linkedin:hover {
+    color: var(--linkedin);
+}
+
+.social-icons li a > i.fa-github:hover {
+    color: var(--github);
+}
+
+.social-icons li a > i.fa-instagram:hover {
+    color: var(--instagram);
 }
