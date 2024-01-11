@@ -4,6 +4,7 @@
 :root {
     --primary: #12bdff;
     --primary-hover: #0c8ec2;
+    --dark-secondary: #22282f;
     --dark-primary: #1b1f24;
     --facebook: #324fe1;
     --linkedin: #0f69ff;
@@ -80,20 +81,20 @@ section.hero-section {
 }
 
 /* section-title__letters*/
-.first-letter {
+.hero-section--first-letter {
     color: var(--primary);
 }
 
 
-.first-letter:hover {
+.hero-section--first-letter:hover {
     color: var(--primary);
 }
 
-.balance-letter {
+.hero-section--balance-letter {
      color: var(--primary);
 }
 
-.balance-letter:hover {
+.hero-section--balance-letter:hover {
     color: #fff;
 }
 
@@ -162,6 +163,18 @@ ul.social-icons {
     background-color:var(--primary-hover);
 }
 
+/* Know more button */
+.btn.btn-secondary {
+    background-color: var(--primary);
+    font-weight: 600;
+    color: var(--dark-primary);
+    border-radius: 3px;
+}
+
+.btn.btn-secondary:hover {
+    background-color:var(--primary-hover);
+}
+
 /* header button */
 .btn-dark-outlined {
     background-color: var(--dark-primary);
@@ -192,3 +205,65 @@ ul.social-icons {
     background-color: var(--dark-primary);
     color: var(--primary);
 }
+
+
+/* About me section */
+.about-section {
+    background-color: var(--dark-secondary);
+    color: #fff;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: 3px solid var(--primary);
+    box-shadow: 3px 5px 35px #03506e;
+}
+
+.about-section--desc {
+    margin-left: 100px;
+    min-height: 450px;
+    padding: 100px 0 0 0;
+}
+
+.about-section--desc h4 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-section--desc ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.about-section--desc---title {
+    color: var(--primary);
+}
+
+.about-section--desc---title:hover {
+    color: var(--primary-hover);
+}
+
+.about-section--desc li {
+    margin-bottom: 8px;
+    color: gray;
+}
+
+.about-section--desc li > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.about-section--desc li > a:hover {
+    color: var(--primary-hover);
+}
+
+.about-section--desc li > strong {
+    color: #fff;
+}
+
