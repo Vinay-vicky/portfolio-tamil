@@ -10,6 +10,7 @@
     --linkedin: #0f69ff;
     --github: #757575;
     --instagram: #E4405F;
+    --whatsapp: #1ca809;
     --nunito: 'Nunito Sans', sans-serif;
     --border-box: border-box;
 }
@@ -138,6 +139,10 @@ ul.social-icons {
     color: var(--instagram);
 }
 
+.social-icons li a > i.fa-whatsapp:hover {
+    color: var(--whatsapp);
+}
+
 .hero-buttons button {
     margin-right: 10px;
 }
@@ -228,7 +233,7 @@ ul.social-icons {
 .about-section--desc {
     margin-left: 100px;
     min-height: 450px;
-    padding: 100px 0 0 0;
+    padding: 88px 0 0 0;
 }
 
 .about-section--desc h4 {
@@ -267,3 +272,168 @@ ul.social-icons {
     color: #fff;
 }
 
+
+/* qualification and achivements-section*/
+.Qualifications_and_Achivements-section {
+    background-color: var(--dark-primary);
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+.Qualifications_and_Achivements-section_title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.Qualifications_and_Achivements-section_title span {
+    color: var(--primary);
+}
+
+.Qualifications_and_Achivements-section_title span:hover {
+    color: var(--primary-hover)
+}
+
+.Qualifications_and_Achivements-items {
+    display: flex;
+    justify-content: center;
+}
+
+/* Education box-box1 */
+.Qualifications_and_Achivements-box1 {
+    background-color: var(--dark-secondary);
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 35px 0 0;
+}
+
+.Qualifications_and_Achivements-box1:hover {
+    background-color: #14171c;
+
+}
+
+.Qualifications_and_Achivements-box1 p {
+    color: gray;
+    font-size: 14px;
+}
+
+.Qualifications_and_Achivements-box1 a {
+   text-decoration: none;
+   color: #feda75;
+}
+
+.Qualifications_and_Achivements-box1_desc {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Qualifications_and_Achivements-box1_desc p {
+    padding-top: 5px;
+}
+
+.Qualifications_and_Achivements-box1_icon {
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.Qualifications_and_Achivements-box1_icon:hover {
+    background-color: var(--primary-hover);
+    color: var(--dark-primary)
+}
+
+/* Projects box-box2 */
+.Qualifications_and_Achivements-box2 {
+    background-color: var(--dark-secondary);
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 35px 0 0;
+}
+
+.Qualifications_and_Achivements-box2:hover {
+    background-color: #14171c;
+
+}
+
+.Qualifications_and_Achivements-box2 p {
+    color: gray;
+    font-size: 14px;
+}
+
+.Qualifications_and_Achivements-box2 a {
+   text-decoration: none;
+   color: #feda75;
+}
+
+.Qualifications_and_Achivements-box2_desc {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Qualifications_and_Achivements-box2_desc p {
+    padding-top: 5px;
+}
+
+.Qualifications_and_Achivements-box2_icon {
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 50px;
+}    
+
+.Qualifications_and_Achivements-box2_icon:hover {
+    background-color: var(--primary-hover);
+    color: var(--dark-primary)
+}
+
+/* Projects box-box2 */
+.Qualifications_and_Achivements-box3 {
+    background-color: var(--dark-secondary);
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 35px 0 0;
+}
+
+.Qualifications_and_Achivements-box3:hover {
+    background-color: #14171c;
+
+}
+
+.Qualifications_and_Achivements-box3 p {
+    color: gray;
+    font-size: 14px;
+}
+
+.Qualifications_and_Achivements-box3 a {
+   text-decoration: none;
+   color: #feda75;
+}
+
+.Qualifications_and_Achivements-box3_desc {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Qualifications_and_Achivements-box3_desc p {
+    padding-top: 5px;
+}
+
+.Qualifications_and_Achivements-box3_icon {
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.Qualifications_and_Achivements-box3_icon:hover {
+    background-color: var(--primary-hover);
+    color: var(--dark-primary)
+}
