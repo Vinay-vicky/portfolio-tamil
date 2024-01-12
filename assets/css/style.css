@@ -21,6 +21,10 @@
     box-sizing: var(--border-box);  
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--nunito);
 }
