@@ -498,3 +498,69 @@ footer a {
 footer a:hover{
     color: var(--primary-hover);
 }
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    header > * {
+        margin-bottom: 10px;
+    }
+
+    header div > ul {
+        padding-left: 20px;
+    }
+
+/* Hero-section */
+section.hero-section {
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+/* About section */
+section.about-section {
+    flex-direction: column;
+}
+
+.about-section--desc {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* my qualification and achievements-section */
+.Qualifications_and_Achivements-section {
+    padding: 30px 10px;
+}
+
+.Qualifications_and_Achivements-items {
+    flex-direction: column;
+    align-items: center;
+}
+
+.Qualifications_and_Achivements-box1 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.Qualifications_and_Achivements-box2 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+}   
+
+.Qualifications_and_Achivements-box3 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+
+/* contact-section */
+.contact-section form div > input, textarea {
+    width: 100%;
+}
+}
