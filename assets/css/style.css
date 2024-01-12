@@ -34,8 +34,11 @@ body {
 header {
     background-color: var(--dark-primary);
     padding: 20px;
+    /* color : RRGGBB; */
     color: #fff;
 
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -76,7 +79,7 @@ section.hero-section {
 
     display: flex;
     align-items: center;
-    padding: 20px 120px 0 200px;
+    padding: 90px 120px 0 200px;
 }
 
 
@@ -217,10 +220,10 @@ ul.social-icons {
 
 
 /* About me section */
-.about-section {
+section.about-section {
     background-color: var(--dark-secondary);
     color: #fff;
-    padding: 60px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,6 +241,7 @@ ul.social-icons {
     margin-left: 100px;
     min-height: 450px;
     padding: 88px 0 0 0;
+    max-width: unset;
 }
 
 .about-section--desc---title {
@@ -503,6 +507,8 @@ footer a:hover{
 @media only screen and (max-width: 600px) {
     header {
         flex-direction: column;
+        position: fixed;
+        width: 100%;
     }
     header > * {
         margin-bottom: 10px;
@@ -515,20 +521,27 @@ footer a:hover{
 /* Hero-section */
 section.hero-section {
     flex-direction: column;
-    padding: 40px;
+    padding: 160px 40px 30px 40px;
+    align-items: center;
 }
 
+section.hero-section img {
+    display: none;
+}
 
 /* About section */
 section.about-section {
     flex-direction: column;
+    padding-bottom: 0;
 }
 
 .about-section--desc {
     margin-left: 0;
     margin-top: 10px;
     width: 100%;
+    padding: 38px 25px 0 20px;
 }
+
 
 /* my qualification and achievements-section */
 .Qualifications_and_Achivements-section {
