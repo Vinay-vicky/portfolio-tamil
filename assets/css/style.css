@@ -236,6 +236,14 @@ ul.social-icons {
     padding: 88px 0 0 0;
 }
 
+.about-section--desc---title {
+    color: var(--primary);
+}
+
+.about-section--desc---title:hover {
+    color: var(--primary-hover);
+}
+
 .about-section--desc h4 {
     font-size: 30px;
     font-weight: 900;
@@ -244,14 +252,6 @@ ul.social-icons {
 .about-section--desc ul {
     list-style: none;
     margin: 10px 0;
-}
-
-.about-section--desc---title {
-    color: var(--primary);
-}
-
-.about-section--desc---title:hover {
-    color: var(--primary-hover);
 }
 
 .about-section--desc li {
@@ -271,7 +271,6 @@ ul.social-icons {
 .about-section--desc li > strong {
     color: #fff;
 }
-
 
 /* qualification and achivements-section*/
 .Qualifications_and_Achivements-section {
@@ -436,4 +435,62 @@ ul.social-icons {
 .Qualifications_and_Achivements-box3_icon:hover {
     background-color: var(--primary-hover);
     color: var(--dark-primary)
+}
+
+/* contact section */
+.contact-section {
+    background-color: #14171c;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section h4 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+
+.contact-section h4 > span {
+    color: var(--primary);
+}
+
+/* Input and Textarea box */
+.contact-section form div > input, textarea {
+    padding: 5px 10px;
+    outline: none;
+    width: 350px;
+    border: none;
+    background-color: #c4c4c4;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: var(--nunito);
+    border:2px solid  #c4c4c4;
+}
+
+.contact-section form div > input:hover {
+    border: 2px solid var(--primary-hover);
+}
+
+.contact-section form div > textarea:hover {
+    border: 2px solid var(--primary-hover);
+}
+
+/* Footer */
+footer {
+    background-color:var(--dark-primary);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+footer a:hover{
+    color: var(--primary-hover);
 }
